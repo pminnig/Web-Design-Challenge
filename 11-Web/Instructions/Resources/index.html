@@ -3,29 +3,62 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <title>Visualization 1</title>
+  <title>Home</title>
 </head>
 <body>
-<div class="topnav">
-  <a class="active" target="_blank" href="index.html">Home</a>
-  <a target="_blank" href="#news">Visualizations</a>
-  <a target="_blank" href="comparison.html">Analysis</a>
-  <a target="_blank" href="data.html">Data</a>
+<div class="container">
+  <div class="row">
+	<div class="col-md-1">
+		<a class="btn btn-primary" href="index.html" role="button">Home</a>
+	</div>
+	<div class="col-md-2">
+		<div class="dropdown">
+			<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Visualizations</a>
+			<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				<li><a class="dropdown-item" href="#">Link</a></li>
+				<li><a class="dropdown-item" href="#">Link</a></li>
+				<li><a class="dropdown-item" href="#">Link</a></li>
+				<li><a class="dropdown-item" href="#">Link</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-md-1">
+		<a class="btn btn-primary" href="comparison.html" role="button">Analysis</a>
+	</div>
+	<div class="col-md-1">
+		<a class="btn btn-primary" href="data.html" role="button">Data</a>
+	</div>
+  </div>
 </div>
 <div class="sidenav">
-  <a>Links</a>
+  <a>Visualizations</a>
   <a target="_blank" href="visualization1.html"><img alt="fig1" src="assets/images/Fig1.png" width=150" height="70"></a>
   <a target="_blank" href="visualization2.html"><img alt="fig2" src="assets/images/Fig2.png" width=150" height="70"></a>
   <a target="_blank" href="visualization3.html"><img alt="fig3" src="assets/images/Fig3.png" width=150" height="70"></a>
   <a target="_blank" href="visualization4.html"><img alt="fig4" src="assets/images/Fig4.png" width=150" height="70"></a>
-  <a target="_blank" href="comparison.html"><img alt="fig4" src="assets/images/Fig4.png" width=150" height="70"></a>
-  <a target="_blank" href="data.html"><img alt="fig4" src="assets/images/Fig4.png" width=150" height="70"></a>
+  
 
 </div>
+<h1>
+
+</h1>
 <p class="summarypara">There should be a sidebar containing preview images of each plot, 
 and clicking an image should take the user to that visualization.
+<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
 </p>
+
 
 </body>
 
